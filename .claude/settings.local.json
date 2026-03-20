@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\work\\study\\00_llm_enhance\\summary"
+    ]
+  }
+}

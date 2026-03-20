@@ -1,0 +1,72 @@
+# Nested git repos (nanoGPT, micrograd 등 clone된 서브폴더)
+**/.git/
+**/.git
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# Model outputs & checkpoints (large files)
+**/output/
+**/checkpoint-*/
+**/*.safetensors
+**/eval_results/
+**/runs/
+**/wandb/
+
+# nanoGPT / 학습 데이터 (대용량)
+**/*.bin
+**/*.pkl
+**/*.pt
+**/*.pth
+
+# Hugging Face cache
+.cache/
+**/huggingface/
+
+# Ollama / generated
+Modelfile
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+*.temp
+.cache/
