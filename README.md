@@ -1,10 +1,10 @@
-# LLM Enhance — LLM 파인튜닝 & 배포 학습
+# 🔬 LLM Enhance — LLM 파인튜닝 & 배포 학습
 
 LLM 파인튜닝부터 배포까지 전 과정을 실습하는 학습 프로젝트입니다.
 
 ---
 
-## 프로젝트 구조
+## 🗂️ 프로젝트 구조
 
 ```
 00_llm_enhance/
@@ -25,16 +25,16 @@ LLM 파인튜닝부터 배포까지 전 과정을 실습하는 학습 프로젝�
 
 ---
 
-## 환경 설정
+## 📋 환경 설정
 
-### 1. 가상환경 생성
+### 📋 1. 가상환경 생성
 
 ```bash
 conda create -n distillation python=3.10 -y
 conda activate distillation
 ```
 
-### 2. 패키지 설치
+### ⚙️ 2. 패키지 설치
 
 ```bash
 pip install torch transformers peft accelerate trl bitsandbytes datasets
@@ -43,14 +43,14 @@ pip install matplotlib pandas numpy jupyter
 
 (각 Phase 노트북에서 추가 패키지가 필요하면 `!pip install`로 설치)
 
-### 3. GPU (권장)
+### 🔹 3. GPU (권장)
 
 - CUDA 지원 GPU (RTX 4070 Ti 12GB 이상 권장)
 - Phase 4 SFT, Phase 6 DPO 학습에 필요
 
 ---
 
-## 실행 방법
+## ▶️ 실행 방법
 
 1. Jupyter Lab 또는 VS Code에서 `src/` 내 노트북 실행
 2. Phase 순서대로 진행 권장 (2 → 3 → 4 → …)
@@ -58,7 +58,7 @@ pip install matplotlib pandas numpy jupyter
 
 ---
 
-## 주요 Phase 요약
+## 🔹 주요 Phase 요약
 
 | Phase | 내용 |
 |-------|------|
@@ -74,6 +74,6 @@ pip install matplotlib pandas numpy jupyter
 
 ---
 
-## 라이선스
+## 📄 라이선스
 
 학습용 프로젝트입니다.
